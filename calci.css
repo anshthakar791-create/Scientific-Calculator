@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #15317e, #ffffff);
+}
+
+.main{
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calci input{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #eaffea;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #efefef;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #d1d1d1;
+}
+
+.operator{
+    background: orange;
+}
+
+.sbtn{
+    background: #c2f0ff;
+}
